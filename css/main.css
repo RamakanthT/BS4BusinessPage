@@ -1,0 +1,167 @@
+/* purple
+d4b7d0
+
+dark purple
+8882b1
+
+blue
+3c5479
+
+black
+0a1723
+132f59 
+*/
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+a{
+    color: #0a1723 !important;
+}
+.navbar{
+    background-color: #fafaff !important;    
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    font-size: 1.1rem !important;
+}
+/* hero */
+.hero-content{
+    position: absolute;
+    top: 40%;
+    left:20%;
+    max-width: 60%;
+    color: #fafaff;
+}
+
+.hero-content > h1 {
+    font-size: 3.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-main{
+    background-color: #8882b1 !important;
+    color: #fafaff !important;
+    font-size: 1.2rem !important;
+}
+
+.btn-main:hover{
+    color: #8882b1 !important;
+    background-color: #fafaff !important;
+}
+
+/* dark section */
+.dark{
+    background-color: #0a1723;
+    color: #fafaff;
+}
+
+.stats-icon{
+    font-size: 4rem;
+
+}
+
+.stats-content{
+    font-size: 1.2rem;
+    color: #8882b1 ;
+}
+
+.stats-content span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #8882b1 !important;
+}
+
+/* about us */
+.section-heading{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-heading > span{
+    color: #8882b1;    
+}
+
+.about h3{
+    font-size: 1.8rem;
+    color: #8882b1; 
+}
+
+.about p{
+    font-size: 0.9rem;
+}
+
+/* portfolio */
+
+.portfolio-item{
+    position:relative;
+}
+.portfolio-content{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    background-color: #8882b1;
+    opacity: 0.8;
+}
+
+.portfolio h4{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.portfolio p{
+    color: #fafaff;
+}
+
+.social-links{
+    background-color: #fafaff;
+    padding: 1rem;
+}
+
+.social-links i {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/* testimonials */
+
+.testimonial h4 {
+    font-size: 3rem;
+}
+.testimonial i{
+    font-size: 2rem;
+
+}
+
+/* call to action */
+
+.call-to-action h3{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* .call-to-action h3>span{ */
+.call-to-action span{
+    color: #8882b1;
+}
+
+/* contact us */
+input,
+textarea{
+    padding: 0.4rem 1rem;
+    width: 100%;
+    border:none;
+    border-bottom: 2px solid #0a1723;
+
+}
